@@ -1,0 +1,84 @@
+E:\UTN\PROGRAMACION 3\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.dll
+E:\UTN\PROGRAMACION 3\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.pdb
+E:\UTN\PROGRAMACION 3\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\UTN\PROGRAMACION 3\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\UTN\PROGRAMACION 3\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.dll
+E:\UTN\PROGRAMACION 3\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.pdb
+E:\UTN\Programacion3\tp2\traidogit\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.dll
+E:\UTN\Programacion3\tp2\traidogit\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.pdb
+E:\UTN\Programacion3\tp2\traidogit\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\UTN\Programacion3\tp2\traidogit\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\UTN\Programacion3\tp2\traidogit\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.dll
+E:\UTN\Programacion3\tp2\traidogit\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.pdb
+E:\UTN\Programacion3\tp2\traidogit\s\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.dll
+E:\UTN\Programacion3\tp2\traidogit\s\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.pdb
+E:\UTN\Programacion3\tp2\traidogit\s\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\UTN\Programacion3\tp2\traidogit\s\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\UTN\Programacion3\tp2\traidogit\s\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.dll
+E:\UTN\Programacion3\tp2\traidogit\s\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Peterzz\Documents\GitHub\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\Peterzz\Documents\GitHub\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Peterzz\Documents\GitHub\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Peterzz\Documents\GitHub\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Peterzz\Documents\GitHub\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\Peterzz\Documents\GitHub\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.pdb
+E:\UTN\TPGRUPO16\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.dll
+E:\UTN\TPGRUPO16\TP2-ASP_Equipo16\Dominio\bin\Debug\Dominio.pdb
+E:\UTN\TPGRUPO16\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+E:\UTN\TPGRUPO16\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+E:\UTN\TPGRUPO16\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.dll
+E:\UTN\TPGRUPO16\TP2-ASP_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Peterzz\Documents\GitHub\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Peterzz\Documents\GitHub\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Peterzz\Documents\GitHub\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\Peterzz\Documents\GitHub\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Peterzz\Documents\GitHub\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\Peterzz\Documents\GitHub\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\TP WEB\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\TP WEB\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\TP WEB\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\TP WEB\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\TP WEB\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\TP WEB\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\MATEO\Desktop\TP-Cuatri-Prog3\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\MATEO\Desktop\TP-Cuatri-Prog3\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\MATEO\Desktop\TP-Cuatri-Prog3\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\MATEO\Desktop\TP-Cuatri-Prog3\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\MATEO\Desktop\TP-Cuatri-Prog3\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\MATEO\Desktop\TP-Cuatri-Prog3\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\tp wenss\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\tp wenss\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\tp wenss\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\tp wenss\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\tp wenss\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\tp wenss\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\tpweb\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\tpweb\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\tpweb\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\tpweb\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\tpweb\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\tpweb\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\TPWEN\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\TPWEN\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\TPWEN\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\TPWEN\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\TPWEN\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\TPWEN\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\adadad\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\adadad\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\adadad\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\adadad\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\adadad\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\adadad\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\proyecto\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\proyecto\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\proyecto\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\proyecto\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\proyecto\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\proyecto\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.dll
+C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Dominio\obj\Debug\Dominio.pdb
