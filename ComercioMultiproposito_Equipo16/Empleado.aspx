@@ -4,19 +4,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <div style="display: flex; padding:20px; justify-content:end">
-
-        <div style="margin:10px">
-            <asp:LinkButton ID="lbtnPerfil" runat="server">Perfil</asp:LinkButton>
-        </div>
-        <div style="margin:10px;">
-            <asp:LinkButton ID="lbtnConfiguracion" runat="server">Configuracion</asp:LinkButton>
-        </div>
-        <div> 
-            <p>AGREGAR UN ORDENAR CARDS A Z</p>
-        </div>
-    </div>
-
 
     <h1 style="justify-content:center; display:flex;">Bienvenido</h1>
 
