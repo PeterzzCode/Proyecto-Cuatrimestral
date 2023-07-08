@@ -73,13 +73,16 @@
         
         <asp:Label ID="lblAvisoClientes" runat="server" Text=""></asp:Label>
         <div class="form_agregar-txtNombre">
-            <asp:Label Text="DNI/CUIT: " runat="server" id="lblDni" for="txtDni"/>
-            <asp:TextBox runat="server" placeholder="Ingrese dni O CUIT sin - ni puntos..." ID="txtDni" onkeyPress="return soloNumeros(event)" MaxLength="11" CssClass="form-control" />
 
             <asp:Label ID="lblClientes" cssclass="form-label" runat="server" Text=" Nombres: " for="txtNombreClientes"></asp:Label>
             <asp:TextBox cssclass="form-control" placeholder="Ingrese nombres..." ID="txtNombreClientes" runat="server"></asp:TextBox>
-            <asp:Label Text="Apellidos: " runat="server"  ID="lblApellido"/>
-            <asp:TextBox runat="server" placeholder="Ingrese apellidos..." ID="txtApellido" CssClass="form-control"/>
+
+            <asp:Label ID="lblDni" cssclass="form-label" runat="server" Text=" Dni: " for="txtDni"></asp:Label>
+            <asp:TextBox cssclass="form-control" placeholder="Ingrese dni..." ID="txtDni" runat="server"></asp:TextBox>
+
+            <asp:Label ID="lblApellidos" cssclass="form-label" runat="server" Text=" Apellido: " for="txtApellido"></asp:Label>
+            <asp:TextBox cssclass="form-control" placeholder="Ingrese apellido..." ID="txtApellido" runat="server"></asp:TextBox>
+          
             <asp:Label ID="lblCodigoPostal" runat="server" Text="Codigo postal: " For="txtCP"></asp:Label>
             <asp:TextBox ID="txtCP" CssClass="form-control" runat="server"></asp:TextBox>
             

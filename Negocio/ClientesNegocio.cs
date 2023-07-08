@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("Select p.id as Id,p.nombre as Nombre, p.apellido as Apellido,p.dni as DNI from Clientes as p");
+                datos.setearQuery("Select p.id as Id,p.nombre as Nombre, p.apellido as Apellido,p.dni as DNI from Clientee as p");
 
                 datos.ejecutarLectura();
 
@@ -67,7 +67,7 @@ namespace Negocio
             {
 
                 int cont = 0;
-                datos.setearQuery("select top(1) id from Clientes order by id desc");
+                datos.setearQuery("select top(1) id from Clientee order by id desc");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -94,7 +94,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("INSERT INTO Clientes (id, Dni, Telefono, Direccion, Correo, Apellido, CodigoPostal, Nombre) VALUES ("+ aux.Id + ", '" + aux.Dni + "', '" + aux.Telefono + "', '" + aux.Domicilio + "', '"+ aux.Email + "', '" + aux.Apellido + "', '" + aux.Cp + "', '" + aux.Nombre + "')");
+                datos.setearQuery("INSERT INTO Clientee (id, Dni, Telefono, Direccion, Correo, Apellido, CodigoPostal, Nombre) VALUES (" + aux.Id + ", '" + aux.Dni + "', '" + aux.Telefono + "', '" + aux.Domicilio + "', '"+ aux.Email + "', '" + aux.Apellido + "', '" + aux.Cp + "', '" + aux.Nombre + "')");
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -114,7 +114,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("delete from Clientes where id= " + Id);
+                datos.setearQuery("delete from Clientee where id= " + Id);
                 datos.ejecutarAccion();
             }
             catch(Exception ex)
@@ -132,7 +132,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("select id from Clientes where dni = '" + dni + "'");
+                datos.setearQuery("select id from Clientee where dni = '" + dni + "'");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -160,7 +160,7 @@ namespace Negocio
             {
 
                 
-                datos.setearQuery("select nombre from Clientes where id =" + id);
+                datos.setearQuery("select nombre from Clientee where id =" + id);
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -188,7 +188,7 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setearQuery("UPDATE Clientes SET nombre = '" + aux.Nombre + "', telefono = '" + aux.Telefono + "', " + "direccion = '" + aux.Domicilio + "', correo = '" + aux.Email + "', apellido = '" + aux.Apellido + "', " + "codigopostal = '" + aux.Cp + "' WHERE id = " + id);
+                datos.setearQuery("UPDATE Clientee SET nombre = '" + aux.Nombre + "', telefono = '" + aux.Telefono + "', " + "direccion = '" + aux.Domicilio + "', correo = '" + aux.Email + "', apellido = '" + aux.Apellido + "', " + "codigopostal = '" + aux.Cp + "' WHERE id = " + id);
                 datos.ejecutarAccion();
 
             }
@@ -212,7 +212,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("select c.id as id,c.nombre as nombre,c.direccion as domicilio,c.telefono as telefono,c.correo as correo,c.dni as dni,c.apellido as apellido,c.codigoPostal as cp from clientes as c");
+                datos.setearQuery("select c.id as id,c.nombre as nombre,c.direccion as domicilio,c.telefono as telefono,c.correo as correo,c.dni as dni,c.apellido as apellido,c.codigoPostal as cp from Clientee as c");
 
                 datos.ejecutarLectura();
 
