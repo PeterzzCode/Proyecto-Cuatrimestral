@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("Select p.id as Id,p.nombre as Nombre, p.apellido as Apellido,p.dni as DNI from Clientee as p");
+                datos.setearQuery("Select p.id as Id,p.nombre as Nombre, p.apellido as Apellido,p.dni as DNI from Clientes as p");
 
                 datos.ejecutarLectura();
 
