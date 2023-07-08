@@ -65,10 +65,9 @@
         <div class="form_agregar-txtNombre">
             <asp:Label ID="lblProveedores" cssclass="form-label" runat="server" Text=" Proveedores: " for="txtNombreProveedores"></asp:Label>
             <asp:TextBox cssclass="form-control" placeholder="Nombre de el Proveedor" ID="txtNombreProveedores" runat="server"></asp:TextBox>
-            <asp:Label ID="Productos" runat="server" Text=""></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox cssclass="form-control" placeholder="Direccion de el Proveedor" ID="txtDireccionProveedores" runat="server"></asp:TextBox>
+            <asp:TextBox cssclass="form-control" placeholder="Telefono de el Proveedor" ID="txtTelefonoProveedores" runat="server"></asp:TextBox>
+            <asp:TextBox cssclass="form-control" placeholder="Correo de el Proveedor" ID="txtCorreoProveedores" runat="server"></asp:TextBox>
 
 
         </div>

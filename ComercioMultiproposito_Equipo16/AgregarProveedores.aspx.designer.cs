@@ -60,40 +60,31 @@ namespace ComercioMultiproposito_Equipo16
         protected global::System.Web.UI.WebControls.TextBox txtNombreProveedores;
 
         /// <summary>
-        /// Control Productos.
+        /// Control txtDireccionProveedores.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Productos;
+        protected global::System.Web.UI.WebControls.TextBox txtDireccionProveedores;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control txtTelefonoProveedores.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtTelefonoProveedores;
 
         /// <summary>
-        /// Control Label2.
+        /// Control txtCorreoProveedores.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-
-        /// <summary>
-        /// Control TextBox2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtCorreoProveedores;
 
         /// <summary>
         /// Control btnAgregarProveedores.

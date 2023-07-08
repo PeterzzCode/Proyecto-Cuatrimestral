@@ -39,6 +39,9 @@ namespace ComercioMultiproposito_Equipo16
         {
             ProveedoresNegocio negocio = new ProveedoresNegocio();
             string nombre = txtNombreProveedores.Text;
+            string direccion = txtDireccionProveedores.Text;
+            string telefono = txtTelefonoProveedores.Text;
+            string correo = txtCorreoProveedores.Text;
 
             if (nombre != "")
             {
@@ -48,6 +51,9 @@ namespace ComercioMultiproposito_Equipo16
 
                     aux.Codigo = negocio.TraerUltimoId();
                     aux.Nombre = nombre;
+                    aux.Direccion = direccion;
+                    aux.Telefono = telefono;
+                    aux.Correo = correo;
 
                     negocio.AgregarProveedor(aux);
                     lblAviso.Text = "PROVEEDOR AÑADIDO CORRECTAMENTE";

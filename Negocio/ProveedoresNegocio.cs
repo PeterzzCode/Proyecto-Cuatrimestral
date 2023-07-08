@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("Select p.id as Id,p.nombre as Nombre from Proveedores as p");
+                datos.setearQuery("Select p.id as Id,p.nombre as Nombre,p.direccion as Direccion,p.telefono as Telefono,p.correo as Correo from Proveedores as p");
 
                 datos.ejecutarLectura();
 
@@ -27,11 +27,20 @@ namespace Negocio
 
 
 
-                    if (!(datos.Lector["Id"] is DBNull))
-                        aux.Codigo = (int)datos.Lector["Id"];
+                    if (!(datos.Lector["id"] is DBNull))
+                        aux.Codigo = (int)datos.Lector["id"];
 
-                    if (!(datos.Lector["Nombre"] is DBNull))
-                        aux.Nombre = (string)datos.Lector["Nombre"];
+                    if (!(datos.Lector["nombre"] is DBNull))
+                        aux.Nombre = (string)datos.Lector["nombre"];
+
+                    if (!(datos.Lector["direccion"] is DBNull))
+                        aux.Direccion = (string)datos.Lector["direccion"];
+
+                    if (!(datos.Lector["telefono"] is DBNull))
+                        aux.Telefono = (string)datos.Lector["telefono"];
+
+                    if (!(datos.Lector["correo"] is DBNull))
+                        aux.Correo = (string)datos.Lector["correo"];
 
                     lista.Add(aux);
                 }
@@ -85,7 +94,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("Insert into Proveedores (id, Nombre)  values (" + proveedor.Codigo + ", '" + proveedor.Nombre + "')");
+                datos.setearQuery("Insert into Proveedores (id, Nombre, direccion, telefono, correo)  values (" + proveedor.Codigo + ", '" + proveedor.Nombre + "', '" + proveedor.Direccion + "', '" + proveedor.Telefono + "', '" + proveedor.Correo + "')");
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
