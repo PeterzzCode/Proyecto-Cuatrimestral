@@ -10,7 +10,19 @@ namespace Dominio
     {
         public int Codigo { get; set; }
         public Proveedor Proveedor { get; set; }
-        public Producto Producto { get; set; }//productos
+        public Producto Producto { get; set; }
+
+        public string FormaPago { get; set; }
+
+        public char Estado { get; set; }
+
+        public DateTime FechaCompra { get; set; }
+
+       
+
+
+
+
 
 
     }

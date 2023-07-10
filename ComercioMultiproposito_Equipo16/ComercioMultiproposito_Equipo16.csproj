@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AddModCategoria.aspx" />
     <Content Include="Administrar.aspx" />
+    <Content Include="AgregarCompras.aspx" />
     <Content Include="AgregarMarca.aspx" />
     <Content Include="AgregarClientes.aspx" />
     <Content Include="AgregarProducto.aspx" />
@@ -102,6 +103,13 @@
     </Compile>
     <Compile Include="Administrar.aspx.designer.cs">
       <DependentUpon>Administrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCompras.aspx.cs">
+      <DependentUpon>AgregarCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarCompras.aspx.designer.cs">
+      <DependentUpon>AgregarCompras.aspx</DependentUpon>
     </Compile>
     <Compile Include="AgregarMarca.aspx.cs">
       <DependentUpon>AgregarMarca.aspx</DependentUpon>

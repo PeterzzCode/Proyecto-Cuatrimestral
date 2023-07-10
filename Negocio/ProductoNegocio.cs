@@ -116,7 +116,24 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
+        public void modificarStock(string codigo, int cant)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearQuery("update Productos set stock_actual+= " + cant + " where id =" + codigo);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
 
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
 
         public void Agregar(Producto aux)
         {

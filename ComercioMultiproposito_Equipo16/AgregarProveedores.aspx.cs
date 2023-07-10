@@ -82,22 +82,7 @@ namespace ComercioMultiproposito_Equipo16
 
         protected void btnModificar_Click(object sender, EventArgs e)
         {
-            ProveedoresNegocio negocio = new ProveedoresNegocio();
-            string id = Request.QueryString["id"];
-
-            string nombre = txtNombreProveedores.Text;
-
-            if (nombre != "")
-            {
-                negocio.ModificarProveedor(id, nombre);
-                lblAviso.Text = "PROVEEDOR MODIFICADO CORRECTAMENTE";
-                lblAviso.ForeColor = System.Drawing.Color.Green;
-            }
-            else
-            {
-                lblAviso.Text = "POR FAVOR CARGUE UN PROVEEDOR";
-                lblAviso.ForeColor = System.Drawing.Color.Red;
-            }
+            
         }
     }
 }
