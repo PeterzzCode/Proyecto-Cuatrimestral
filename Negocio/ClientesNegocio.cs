@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("Select p.id as Id,p.nombre as Nombre, p.apellido as Apellido,p.dni as DNI from Clientes as p");
+                datos.setearQuery("Select p.id as Id,p.nombre as Nombre, p.codigopostal as Cp, p.apellido as Apellido, p.telefono as Telefono, p.dni as DNI from Clientee as p");
 
                 datos.ejecutarLectura();
 
@@ -33,10 +33,15 @@ namespace Negocio
                     if (!(datos.Lector["Nombre"] is DBNull))
                         aux.Nombre = (string)datos.Lector["Nombre"];
 
+                    if (!(datos.Lector["Telefono"] is DBNull))
+                        aux.Telefono = (string)datos.Lector["Telefono"];
 
 
                     if (!(datos.Lector["Apellido"] is DBNull))
                         aux.Apellido = (string)datos.Lector["Apellido"];
+
+                    if (!(datos.Lector["Cp"] is DBNull))
+                        aux.Cp = (string)datos.Lector["Cp"];
 
                     if (!(datos.Lector["DNI"] is DBNull))
                         aux.Dni = (string)datos.Lector["DNI"];
@@ -94,7 +99,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("INSERT INTO Clientee (id, Dni, Telefono, Direccion, Correo, Apellido, CodigoPostal, Nombre) VALUES (" + aux.Id + ", '" + aux.Dni + "', '" + aux.Telefono + "', '" + aux.Domicilio + "', '"+ aux.Email + "', '" + aux.Apellido + "', '" + aux.Cp + "', '" + aux.Nombre + "')");
+                datos.setearQuery("INSERT INTO Clientee (id, Dni, Telefono, Direccion, Correo, Apellido, codigopostal, Nombre) VALUES (" + aux.Id + ", '" + aux.Dni + "', '" + aux.Telefono + "', '" + aux.Domicilio + "', '"+ aux.Email + "', '" + aux.Apellido + "', '" + aux.Cp + "', '" + aux.Nombre + "')");
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -212,7 +217,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("select c.id as id,c.nombre as nombre,c.direccion as domicilio,c.telefono as telefono,c.correo as correo,c.dni as dni,c.apellido as apellido,c.codigoPostal as cp from Clientee as c");
+                datos.setearQuery("select c.id as id,c.nombre as nombre,c.direccion as domicilio,c.telefono as telefono,c.correo as correo,c.dni as dni,c.apellido as apellido,c.codigopostal as cp from Clientee as c");
 
                 datos.ejecutarLectura();
 
@@ -244,7 +249,10 @@ namespace Negocio
 
                         if (!(datos.Lector["apellido"] is DBNull))
                             aux.Apellido = (string)datos.Lector["apellido"];
-                  
+
+                        if (!(datos.Lector["telefono"] is DBNull))
+                            aux.Telefono = (string)datos.Lector["telefono"];
+
 
                         if (!(datos.Lector["cp"] is DBNull))
                             aux.Cp = (string)datos.Lector["cp"];

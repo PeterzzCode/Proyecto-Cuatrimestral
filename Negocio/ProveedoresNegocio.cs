@@ -17,7 +17,7 @@ namespace Negocio
 
             try
             {
-                datos.setearQuery("Select p.id as ID,p.nombre as Nombre,p.direccion as Domicilio, p.telefono as Telefono, p.correo as Email, p.dni as DNI from Proveedores as p");
+                datos.setearQuery("Select p.id as ID,p.nombre as Nombre,p.direccion as Domicilio, p.telefono as Telefono, p.correo as Email from Proveedores as p");
 
                 datos.ejecutarLectura();
 
@@ -28,19 +28,21 @@ namespace Negocio
 
 
                     if (!(datos.Lector["ID"] is DBNull))
-                        aux.Codigo = (int)datos.Lector["Id"];
+                        aux.Codigo = (int)datos.Lector["ID"];
 
                     if (!(datos.Lector["Nombre"] is DBNull))
                         aux.Nombre = (string)datos.Lector["Nombre"];
 
                     if (!(datos.Lector["Domicilio"] is DBNull))
-                        aux.Domicilio = (string)datos.Lector["Nombre"];
+                        aux.Domicilio = (string)datos.Lector["Domicilio"];
+
                     if (!(datos.Lector["Telefono"] is DBNull))
                         aux.Telefono = (string)datos.Lector["Telefono"];
+
                     if (!(datos.Lector["Email"] is DBNull))
                         aux.Email = (string)datos.Lector["Email"];
-                    if (!(datos.Lector["DNI"] is DBNull))
-                        aux.Dni = (string)datos.Lector["DNI"];
+
+
 
 
                     lista.Add(aux);
@@ -156,7 +158,7 @@ namespace Negocio
 
             try
             {
-                string consulta = "INSERT INTO Proveedores (id, Nombre, Direccion, Telefono, Correo, DNI) " + "VALUES (" + proveedor.Codigo + ", '" + proveedor.Nombre + "', '" + proveedor.Domicilio + "', '" + proveedor.Telefono + "', '" + proveedor.Email + "', '" + proveedor.Dni + "')";
+                string consulta = "INSERT INTO Proveedores (id, Nombre, Direccion, Telefono, Correo) " + "VALUES (" + proveedor.Codigo + ", '" + proveedor.Nombre + "', '" + proveedor.Domicilio + "', '" + proveedor.Telefono + "', '" + proveedor.Email + "')";
                 datos.setearQuery(consulta);
                 datos.ejecutarAccion();
             }
@@ -249,15 +251,14 @@ namespace Negocio
         }
 
 
-        public void ModificarProveedor(Proveedor proveedor)
+        public void ModificarProveedor(string id, Proveedor proveedor)
         {
 
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                string consulta = "UPDATE Proveedores SET " + "Nombre = '" + proveedor.Nombre + "', " + "Direccion = '" + proveedor.Domicilio + "', " + "Telefono = '" + proveedor.Telefono + "', " + "Correo = '" + proveedor.Email + "', " + "DNI = '" + proveedor.Dni + "' " + "WHERE id = " + proveedor.Codigo;
-                datos.setearQuery(consulta);
-                datos.ejecutarAccion();
+                datos.setearQuery("UPDATE Proveedores SET nombre = '" + proveedor.Nombre + "', telefono = '" + proveedor.Telefono + "', " + "direccion = '" + proveedor.Domicilio + "', correo = '" + proveedor.Email + "' WHERE id = " + id);
+                datos.ejecutarLectura();
 
             }
             catch (Exception ex)

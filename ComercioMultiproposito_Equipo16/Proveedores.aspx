@@ -77,9 +77,9 @@
 
                         <asp:BoundField HeaderText="Codigo" DataField="Codigo" Visible="false" />
                         <asp:BoundField HeaderText="Nombre" DataField="Nombre"/>
-                        <asp:BoundField HeaderText="Direccion" DataField="Direccion"/>
+                        <asp:BoundField HeaderText="Direccion" DataField="Domicilio"/>
                         <asp:BoundField HeaderText="Telefono" DataField="Telefono"/>
-                        <asp:BoundField HeaderText="Correo" DataField="Correo"/>
+                        <asp:BoundField HeaderText="Correo" DataField="Email"/>
                         <asp:ButtonField CommandName="Modificar" Text="Modificar" ButtonType="Button" ItemStyle-CssClass="estiloBTNdgv" />
                         <asp:ButtonField CommandName="Eliminar" Text="Eliminar" ButtonType="Button" ItemStyle-CssClass="estiloBTNdgv" />
          </Columns>
