@@ -42,13 +42,13 @@ namespace ComercioMultiproposito_Equipo16
         protected global::System.Web.UI.WebControls.Label lblAviso;
 
         /// <summary>
-        /// Control lblProveedores.
+        /// Control lblNombreProveedores.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblProveedores;
+        protected global::System.Web.UI.WebControls.Label lblNombreProveedores;
 
         /// <summary>
         /// Control txtNombreProveedores.
@@ -60,6 +60,15 @@ namespace ComercioMultiproposito_Equipo16
         protected global::System.Web.UI.WebControls.TextBox txtNombreProveedores;
 
         /// <summary>
+        /// Control lblDireccionProveedores.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDireccionProveedores;
+
+        /// <summary>
         /// Control txtDireccionProveedores.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace ComercioMultiproposito_Equipo16
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDireccionProveedores;
+
+        /// <summary>
+        /// Control lblTelefonoProveedores.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTelefonoProveedores;
 
         /// <summary>
         /// Control txtTelefonoProveedores.
@@ -78,13 +96,22 @@ namespace ComercioMultiproposito_Equipo16
         protected global::System.Web.UI.WebControls.TextBox txtTelefonoProveedores;
 
         /// <summary>
-        /// Control txtCorreoProveedores.
+        /// Control lblEmailProveedores.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCorreoProveedores;
+        protected global::System.Web.UI.WebControls.Label lblEmailProveedores;
+
+        /// <summary>
+        /// Control txtEmailProveedores.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEmailProveedores;
 
         /// <summary>
         /// Control btnAgregarProveedores.

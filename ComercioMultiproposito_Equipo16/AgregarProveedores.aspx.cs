@@ -21,9 +21,20 @@ namespace ComercioMultiproposito_Equipo16
                 btnAgregarProveedores.Visible = false;
 
                 string nom = Request.QueryString["id"];
+                int num = int.Parse(Request.QueryString["id"]);
+
+                List<Proveedor> listaProveedores = new List<Proveedor>();
 
                 string cadena = negocio.TraerNombreProveedor(nom);
+                listaProveedores = negocio.TraerUnRegistro(num);
                 lblModificar.Text += cadena;
+                if (!IsPostBack)
+                {
+                    txtNombreProveedores.Text = listaProveedores[0].Nombre;
+                    txtEmailProveedores.Text = listaProveedores[0].Email;
+                    txtDireccionProveedores.Text = listaProveedores[0].Domicilio;
+                    txtTelefonoProveedores.Text = listaProveedores[0].Telefono;
+                }
             }
             else
             {
@@ -41,7 +52,7 @@ namespace ComercioMultiproposito_Equipo16
             string nombre = txtNombreProveedores.Text;
             string direccion = txtDireccionProveedores.Text;
             string telefono = txtTelefonoProveedores.Text;
-            string correo = txtCorreoProveedores.Text;
+            string correo = txtEmailProveedores.Text;
 
             if (nombre != "")
             {
@@ -51,9 +62,9 @@ namespace ComercioMultiproposito_Equipo16
 
                     aux.Codigo = negocio.TraerUltimoId();
                     aux.Nombre = nombre;
-                    aux.Direccion = direccion;
+                    aux.Domicilio = direccion;
                     aux.Telefono = telefono;
-                    aux.Correo = correo;
+                    aux.Email = correo;
 
                     negocio.AgregarProveedor(aux);
                     lblAviso.Text = "PROVEEDOR AÑADIDO CORRECTAMENTE";
@@ -82,7 +93,55 @@ namespace ComercioMultiproposito_Equipo16
 
         protected void btnModificar_Click(object sender, EventArgs e)
         {
-            
-        }
-    }
-}
+            ProveedoresNegocio negocio = new ProveedoresNegocio();
+            string id = Request.QueryString["id"];
+
+            string nombre = txtNombreProveedores.Text;
+
+            if (nombre != "")
+            {
+
+
+                    Proveedor aux = new Proveedor();
+
+                    aux.Codigo = negocio.TraerUltimoId();
+
+
+                    if (txtTelefonoProveedores.Text != "" || txtEmailProveedores.Text != "")
+                    {
+
+                        aux.Telefono = txtTelefonoProveedores.Text;
+                        aux.Domicilio = txtDireccionProveedores.Text;
+                        aux.Email = txtEmailProveedores.Text;
+
+                        if (txtNombreProveedores.Text != "")
+                        {
+                            aux.Nombre = txtNombreProveedores.Text;
+                            negocio.ModificarProveedor(id, aux);
+                            lblAviso.Text = "PROVEEDOR MODIFICADO CORRECTAMENTE";
+                            lblAviso.ForeColor = System.Drawing.Color.Green;
+
+                        }
+                        else
+                        {
+                            lblAviso.Text = "POR FAVOR AÑADA UN NOMBRE";
+                            lblAviso.ForeColor = System.Drawing.Color.Red;
+                            txtNombreProveedores.BackColor = System.Drawing.Color.Red;
+                        }
+
+
+                    }
+                    else
+                    {
+                        txtEmailProveedores.BackColor = System.Drawing.Color.Red;
+                        txtTelefonoProveedores.BackColor = System.Drawing.Color.Red;
+                        lblAviso.Text = "POR FAVOR AGREGAR UN CONTACTO: EMAIL O TELEFONO CELULAR";
+                        lblAviso.ForeColor = System.Drawing.Color.Red;
+                    }
+
+             }
+
+
+         }
+     }
+ }

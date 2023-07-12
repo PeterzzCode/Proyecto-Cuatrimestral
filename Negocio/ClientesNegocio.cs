@@ -193,7 +193,7 @@ namespace Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setearQuery("UPDATE Clientee SET nombre = '" + aux.Nombre + "', telefono = '" + aux.Telefono + "', " + "direccion = '" + aux.Domicilio + "', correo = '" + aux.Email + "', apellido = '" + aux.Apellido + "', " + "codigopostal = '" + aux.Cp + "' WHERE id = " + id);
+                datos.setearQuery("UPDATE Clientee SET nombre = '" + aux.Nombre + "', telefono = '" + aux.Telefono + "', " + "direccion = '" + aux.Domicilio + "', correo = '" + aux.Email + "', apellido = '" + aux.Apellido + "', " + "codigopostal = '" + aux.Cp + "', dni = '" + aux.Dni + "' WHERE id = " + id);
                 datos.ejecutarAccion();
 
             }

@@ -55,7 +55,7 @@
     </div>
 
     <div class="h2_ModificarProveedores">
-        <asp:Label ID="lblModificar" runat="server" Text="Modificar Proveedores: "></asp:Label>
+        <asp:Label ID="lblModificar" runat="server" Text="Modificar Proveedor: "></asp:Label>
     </div>
 
     <div class="form_agregar">
@@ -63,11 +63,18 @@
         
         <asp:Label ID="lblAviso" runat="server" Text=""></asp:Label>
         <div class="form_agregar-txtNombre">
-            <asp:Label ID="lblProveedores" cssclass="form-label" runat="server" Text=" Proveedores: " for="txtNombreProveedores"></asp:Label>
-            <asp:TextBox cssclass="form-control" placeholder="Nombre de el Proveedor" ID="txtNombreProveedores" runat="server"></asp:TextBox>
-            <asp:TextBox cssclass="form-control" placeholder="Direccion de el Proveedor" ID="txtDireccionProveedores" runat="server"></asp:TextBox>
-            <asp:TextBox cssclass="form-control" placeholder="Telefono de el Proveedor" ID="txtTelefonoProveedores" runat="server"></asp:TextBox>
-            <asp:TextBox cssclass="form-control" placeholder="Correo de el Proveedor" ID="txtCorreoProveedores" runat="server"></asp:TextBox>
+
+            <asp:Label ID="lblNombreProveedores" cssclass="form-label" runat="server" Text=" Nombre: " for="txtNombreClientes"></asp:Label>
+            <asp:TextBox cssclass="form-control" placeholder="Ingrese el Nombre de el Proveedor" ID="txtNombreProveedores" runat="server"></asp:TextBox>
+
+            <asp:Label ID="lblDireccionProveedores" cssclass="form-label" runat="server" Text=" Direccion: " for="txtNombreClientes"></asp:Label>
+            <asp:TextBox cssclass="form-control" placeholder="Ingrese una Direccion de el Proveedor" ID="txtDireccionProveedores" runat="server"></asp:TextBox>
+
+            <asp:Label ID="lblTelefonoProveedores" cssclass="form-label" runat="server" Text=" Telefono: " for="txtNombreClientes"></asp:Label>
+            <asp:TextBox cssclass="form-control" placeholder="Ingrese un Telefono de el Proveedor" ID="txtTelefonoProveedores" runat="server"></asp:TextBox>
+
+            <asp:Label ID="lblEmailProveedores" cssclass="form-label" runat="server" Text=" Email: " for="txtNombreClientes"></asp:Label>
+            <asp:TextBox cssclass="form-control" placeholder="Ingrese un Email de el Proveedor" ID="txtEmailProveedores" runat="server"></asp:TextBox>
 
 
         </div>

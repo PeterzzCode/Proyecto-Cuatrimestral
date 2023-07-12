@@ -158,8 +158,7 @@ namespace Negocio
 
             try
             {
-                string consulta = "INSERT INTO Proveedores (id, Nombre, Direccion, Telefono, Correo) " + "VALUES (" + proveedor.Codigo + ", '" + proveedor.Nombre + "', '" + proveedor.Domicilio + "', '" + proveedor.Telefono + "', '" + proveedor.Email + "')";
-                datos.setearQuery(consulta);
+                datos.setearQuery("INSERT INTO Proveedores (id, Nombre, Direccion, Telefono, Correo) VALUES (" + proveedor.Codigo + ", '" + proveedor.Nombre + "', '" + proveedor.Domicilio + "', '" + proveedor.Telefono + "', '" + proveedor.Email + "')");
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -260,6 +259,64 @@ namespace Negocio
                 datos.setearQuery("UPDATE Proveedores SET nombre = '" + proveedor.Nombre + "', telefono = '" + proveedor.Telefono + "', " + "direccion = '" + proveedor.Domicilio + "', correo = '" + proveedor.Email + "' WHERE id = " + id);
                 datos.ejecutarLectura();
 
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public List<Proveedor> TraerUnRegistro(int cod)
+        {
+            List<Proveedor> lista = new List<Proveedor>();
+            AccesoDatos datos = new AccesoDatos();
+
+
+            try
+            {
+                datos.setearQuery("select c.id as id,c.nombre as nombre,c.direccion as domicilio,c.telefono as telefono,c.correo as correo from Proveedores as c");
+
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Proveedor aux = new Proveedor();
+
+                    if (cod == (int)datos.Lector["id"])
+                    {
+                        if (!(datos.Lector["Id"] is DBNull))
+                            aux.Codigo = (int)datos.Lector["Id"];
+
+
+                        if (!(datos.Lector["nombre"] is DBNull))
+                            aux.Nombre = (string)datos.Lector["nombre"];
+
+
+                        if (!(datos.Lector["domicilio"] is DBNull))
+                            aux.Domicilio = (string)datos.Lector["domicilio"];
+                        else
+                            aux.Domicilio = "Sin Domicilio registrado";
+
+                        if (!(datos.Lector["correo"] is DBNull))
+                            aux.Email = (string)datos.Lector["correo"];
+
+                        if (!(datos.Lector["telefono"] is DBNull))
+                            aux.Telefono = (string)datos.Lector["telefono"];
+
+
+
+                        lista.Add(aux);
+                        return lista;
+                    }
+
+                }
+
+                return lista;
             }
             catch (Exception ex)
             {
