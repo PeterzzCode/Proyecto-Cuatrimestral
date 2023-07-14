@@ -27,5 +27,10 @@ namespace ComercioMultiproposito_Equipo16
         {
             Response.Redirect("MostrarCompras.aspx");
         }
+
+        protected void btnEmpleado_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Empleado.aspx");
+        }
     }
 }

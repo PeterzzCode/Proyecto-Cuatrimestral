@@ -26,7 +26,7 @@ namespace ComercioMultiproposito_Equipo16
 
         protected void btnVentas_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Venta.aspx");
+            Response.Redirect("Ventas.aspx");
         }
 
         protected void btnCompra_Click(object sender, EventArgs e)

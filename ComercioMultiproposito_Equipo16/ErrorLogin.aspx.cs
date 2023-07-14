@@ -23,6 +23,7 @@ namespace ComercioMultiproposito_Equipo16
             {
                 Session.RemoveAll();
             }
+            Response.Redirect("Default.aspx", false);
         }
     }
 }
