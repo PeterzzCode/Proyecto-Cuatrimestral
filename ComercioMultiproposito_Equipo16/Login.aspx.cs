@@ -15,6 +15,11 @@ namespace ComercioMultiproposito_Equipo16
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["usuario"] != null)
+            {
+                Session.Add("error", "Ya Estas Logueado");
+                Response.Redirect("ErrorLogin.aspx", false);
+            }
 
         }
 

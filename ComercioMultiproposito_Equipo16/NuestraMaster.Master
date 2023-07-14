@@ -22,9 +22,15 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-
-                        </ul>
+                            <ul class="navbar-nav">
+                            <a class="navbar-brand" href="Empleado.aspx">inicio</a>
+                            </ul>
+                            <ul class="navbar-nav">
+                            <a class="navbar-brand" href="Login.aspx">Login</a>
+                            </ul>
+                            <ul class="navbar-nav">
+                            <a class="navbar-brand" href="Registro.aspx">Register</a>
+                            </ul>
                     </div>
                 </div>
             </nav>

@@ -13,6 +13,16 @@ namespace ComercioMultiproposito_Equipo16
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["usuario"] == null)
+            {
+                Session.Add("error", "Debes Loguearte Para Ingresar");
+                Response.Redirect("Error.aspx", false);
+            }
+            if(Session["usuario"] != null && ((Dominio.Usuario)Session["usuario"]).TipoUsuario != Dominio.TipoUsuario.ADMIN)
+            {
+                Session.Add("error", "Debes Ser Admin");
+                Response.Redirect("ErrorLogin.aspx", false);
+            }
             if (Request.QueryString["id"] != null)
             {
                 CategoriaNegocio negocio = new CategoriaNegocio();

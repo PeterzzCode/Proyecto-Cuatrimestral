@@ -16,5 +16,15 @@ namespace ComercioMultiproposito_Equipo16
                 lblMensaje.Text = Session["error"].ToString();
             }
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
+
+        protected void btnRegistro_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Registro.aspx");
+        }
     }
 }

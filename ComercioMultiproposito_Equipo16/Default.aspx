@@ -14,7 +14,10 @@
     </div>
 
     <div>
+         <%if (Session["usuario"] == null)
+             { %>
         <asp:Button ID="btnPaginaLogin" runat="server" CssClass="btn btn-primary" Text="Acceder" OnClick="btnPaginaLogin_Click" style="background-color:aqua;border-color:black;color:black;"/>
+        <%} %>
     </div>
 </div>
     

@@ -63,8 +63,11 @@
 
 
     <div class="cajabotones">
+        <%if (Session["usuario"] != null && ((Dominio.Usuario)Session["usuario"]).TipoUsuario == Dominio.TipoUsuario.ADMIN)
+            { %>
         <asp:Button ID="btnAgregarProducto" runat="server" Text="Agregar nuevo Producto" CssClass="btn btn-Primary" class="btn" OnClick="btnAgregarProducto_Click" />
-    </div>
+   <%} %>
+        </div>
 
 
     <div class="cajaDGV">

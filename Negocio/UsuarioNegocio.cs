@@ -38,5 +38,24 @@ namespace Negocio
 			}
         }
 
+
+		public int Registrar(Usuario usuario)
+		{
+			AccesoDatos datos = new AccesoDatos();
+			try
+			{
+				datos.setearProcedimiento("Registrar");
+				datos.setParameters("@user", usuario.User);
+                datos.setParameters("@pass", usuario.Pass);
+                datos.setParameters("@tipo", usuario.TipoUsuario);
+				return datos.ejecutarAccionScalar();
+			}
+			catch (Exception ex)
+			{
+
+				throw ex;
+			}
+		}
+
     }
 }
