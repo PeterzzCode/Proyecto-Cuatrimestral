@@ -23,21 +23,33 @@ namespace ComercioMultiproposito_Equipo16
             {
                
                 cargarMediosDePago();
-                
+                CargarProductos();
             }
 
         }
+        public void CargarProductos()
+        {
+            ddlProductos.Items.Add("Producto1");
+            ddlProductos.Items.Add("Producto2");
+            
 
-       
+
+
+
+
+        }
+
 
         public void cargarMediosDePago()
         {
             
-            ddlMediosPago.Items.Add("Tarjeta de credito");
+            ddlMediosPago.Items.Add("Tarjeta de Credito");
             ddlMediosPago.Items.Add("Tarjeta de debito");
             ddlMediosPago.Items.Add("Transferencia");
             
         }
+
+
 
         
 
@@ -55,7 +67,7 @@ namespace ComercioMultiproposito_Equipo16
 
                     if (cant > 0)
                     {
-
+                        Response.Redirect("MisCompras.aspx");
                         Compra aux = new Compra();
                         CompraNegocio compraNegocio = new CompraNegocio();
 
@@ -104,7 +116,7 @@ namespace ComercioMultiproposito_Equipo16
             catch (Exception ex)
             {
 
-                throw ex;
+                Session.Add("error", ex);
             }
 
         }

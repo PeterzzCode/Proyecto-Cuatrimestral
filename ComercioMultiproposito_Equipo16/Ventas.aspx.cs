@@ -11,16 +11,18 @@ namespace ComercioMultiproposito_Equipo16
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["usuario"] == null)
+         
+       
+            if (Session["usuario"] != null && ((Dominio.Usuario)Session["usuario"]).TipoUsuario != Dominio.TipoUsuario.ADMIN)
             {
-                Session.Add("error", "Debes Loguearte Para Ingresar");
-                Response.Redirect("Error.aspx", false);
-            }
-        }
+             
 
-        protected void btnEmpleado_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Empleado.aspx");
+                Response.Redirect("MisCompras.aspx");//para ver pedido
+              
+
+            }
+
+            
         }
     }
 }
