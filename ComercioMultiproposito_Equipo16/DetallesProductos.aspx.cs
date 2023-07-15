@@ -49,6 +49,10 @@ namespace ComercioMultiproposito_Equipo16
 
         }
 
+        protected void btnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Productos.aspx");
+        }
         protected void dgvDetalleProductos_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             int Fila = Convert.ToInt32(e.CommandArgument);

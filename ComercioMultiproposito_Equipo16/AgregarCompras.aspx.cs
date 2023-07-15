@@ -51,7 +51,10 @@ namespace ComercioMultiproposito_Equipo16
 
 
 
-        
+        protected void btnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Compra.aspx");
+        }
 
         protected void btnAgregar_Click(object sender, EventArgs e)
         {

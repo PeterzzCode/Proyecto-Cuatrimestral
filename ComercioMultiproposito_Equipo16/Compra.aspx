@@ -17,7 +17,6 @@
     <div>
 
         <asp:Button ID="btnAgregar" runat="server" Text="Agregar nueva compra"  CssClass="btn btn-primary" OnClick="btnAgregar_Click"/>
-        <asp:Button ID="btnMostrar" runat="server" Text="Mis Compras" CssClass="btn btn-primary" OnClick="btnMostrar_Click"/>
         
 
     </div>

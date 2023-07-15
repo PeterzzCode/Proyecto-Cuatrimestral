@@ -66,6 +66,10 @@
         </div>
     </div>
 
+    <div class="form_agregar-btnVolver">
+            <asp:Button ID="btnVolver" runat="server" cssclass="btn btn-primary" Text="Volver atras" OnClick="btnVolver_Click"   />
+        </div>
+
 
 
 </asp:Content>

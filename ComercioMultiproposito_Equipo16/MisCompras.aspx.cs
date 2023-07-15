@@ -30,7 +30,10 @@ namespace ComercioMultiproposito_Equipo16
 
 
 
-
+        protected void btnEmpleado_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Empleado.aspx");
+        }
 
 
 

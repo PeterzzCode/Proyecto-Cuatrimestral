@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Dominio;
 using Negocio;
 
 namespace ComercioMultiproposito_Equipo16
@@ -92,6 +93,14 @@ namespace ComercioMultiproposito_Equipo16
         protected void btnEmpleado_Click(object sender, EventArgs e)
         {
             Response.Redirect("Empleado.aspx");
+        }
+
+        protected void txtBuscarProveedores_TextChanged(object sender, EventArgs e)
+        {
+            List<Proveedor> lista = (List<Proveedor>)Session["listaProveedores"];
+            List<Proveedor> listaFiltrada = lista.FindAll(x => x.Nombre.ToUpper().Contains(txtBuscarProveedores.Text.ToUpper()));
+            dgvProveedores.DataSource = listaFiltrada;
+            dgvProveedores.DataBind();
         }
     }
 }
