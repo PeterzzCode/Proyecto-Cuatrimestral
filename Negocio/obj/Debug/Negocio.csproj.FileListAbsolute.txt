@@ -160,3 +160,12 @@ C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Ne
 C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.dll
 C:\Users\pbarr\OneDrive\Escritorio\tpweb3ra\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.pdb
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\bin\Debug\Negocio.dll
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\bin\Debug\Negocio.pdb
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\bin\Debug\Dominio.dll
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\bin\Debug\Dominio.pdb
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.dll
+C:\Users\MATEO\Desktop\TP4-ULTVersion\TPCuatrimestral-Comercio_Equipo16\Negocio\obj\Debug\Negocio.pdb

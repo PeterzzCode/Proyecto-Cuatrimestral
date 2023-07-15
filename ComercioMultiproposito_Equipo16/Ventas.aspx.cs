@@ -11,8 +11,9 @@ namespace ComercioMultiproposito_Equipo16
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-         
-       
+
+            Response.Redirect("MisCompras.aspx");//para ver pedido
+
             if (Session["usuario"] != null && ((Dominio.Usuario)Session["usuario"]).TipoUsuario != Dominio.TipoUsuario.ADMIN)
             {
              
